@@ -1,0 +1,625 @@
+/* Estilos do WordPress e plugins */
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+/* Estilos personalizados */
+#page-header-cover.swiper-slider .swiper-slide .overlay {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+/* Outros estilos foram omitidos para brevidade */
+.client-4-cols .client-col img {
+    max-height: 300px;
+    width: auto;
+
+}
+
+#logo-hero {
+    margin-top: 20rem;
+    height: auto;
+
+}
+
+.swiper-intro-inner p img {
+    height: 45vh;
+    margin-top: 20vh;
+}
+
+p {
+    font-size: 1.2rem
+}
+
+@media screen and (max-width: 800px) {
+    .swiper-intro-inner p img {
+        margin-top: 20vh;
+        width: 85%;
+        height: 60%;
+    }
+
+    #hero {
+        min-height: 50vh;
+    }
+
+    .client-4-cols {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .client-4-cols .client-col {
+        width: 50%;
+    }
+}
+
+.custom-logo {
+    width: 200px !important;
+}
+
+/*Area do participante*/
+.callToAction,
+#menu-item-91 a {
+    background-color: yellow !important;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    padding-right: 17px;
+    color: green !important;
+    border-color: black;
+    border: 1px black;
+}
+
+
+
+.callToAction a {
+    color: white !important;
+}
+
+#masthead {
+    position: fixed !important;
+    margin-bottom: 30px;
+}
+
+#recursos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#clientes {
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+}
+
+#contador,
+#counter {
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+}
+
+
+#hero {
+    min-height: 100vh;
+}
+
+
+/*--- Base ---*/
+
+div.entry-content h3 {
+    color: white;
+    font-weight: bold;
+}
+
+
+div.su-spoiler {
+    margin-bottom: 1em;
+}
+
+div.su-spoiler .su-spoiler-title {
+    font-size: 1em;
+}
+
+div.su-spoiler-style-default .su-spoiler-title .su-spoiler-icon {
+    left: 7px;
+}
+
+div.su-spoiler-style-default .su-spoiler-title {
+    border-radius: 10px;
+    padding: 7px 7px 7px 34px;
+}
+
+div.su-spoiler,
+div.su-spoiler-content {
+    border-radius: 10px;
+}
+
+div.su-spoiler-style-fancy,
+div.su-spoiler-style-fancy .su-spoiler-title,
+div.su-spoiler-style-fancy .su-spoiler-content {
+    border-color: #029b3a;
+    color: white;
+    background-color: #029b3a;
+}
+
+div.su-spoiler-style-default,
+div.su-spoiler-style-default .su-spoiler-title,
+div.su-spoiler-style-default .su-spoiler-content {
+    border-color: #022775;
+    color: white;
+    background-color: #022775;
+}
+
+div.resolucao {
+    border: 2px solid #a79745;
+    background-color: #a79745;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+div.resolucao i {
+    padding-left: 0.5em;
+}
+
+div.resolucao a {
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+}
+
+div.enunciado {
+    border: 2px solid #a89743;
+    background-color: #a89743;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+.enunciado-1 {
+    color: red;
+    background-color: #fff;
+}
+
+div.enunciado i {
+    padding-left: 0.5em;
+}
+
+div.enunciado a {
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+}
+
+div.testes {
+    border: 2px solid #ffe300;
+    background-color: #ffe300;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+div.testes i {
+    padding-left: 0.5em;
+}
+
+div.testes a {
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+body{
+    color: #000;
+    font-family: Consolas, monaco, monospace; 
+    font-size: 120%;
+}*/
+
+.header-layout-fixed .swiper-slide-intro .swiper-intro-inner {
+    display: none;
+}
+
+#hero .swiper-slide-intro .swiper-intro-inner {
+    display: inline;
+
+}
+
+.section-title {
+    color: #fff
+}
+
+.textwidget h4 {
+    color: white;
+}
+
+h3.widget-title {
+    color: #fff;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.btn {
+    color: #fff;
+    border-color: #fff;
+    font-size: 100%;
+    border-width: 0px;
+    border-radius: 10px 10px 0 0;
+    border-bottom-width: 0px !important;
+}
+
+#secondary ul li a,
+#secondary h2 {
+    color: white;
+}
+
+#secondary form .search-submit {
+    color: #222;
+}
+
+#secondary form .search-submit,
+#secondary form label {
+    width: 85%;
+}
+
+#pl-655 ol,
+#pl-170 ol {
+    padding-left: 5%;
+}
+
+
+/*--- Notícias ---*/
+
+#news .entry-grid-elements .entry-grid-cate,
+#news .section-news-content .entry-grid-more,
+#comments .comments-title {
+    display: none;
+}
+
+#news .entry-grid-elements .entry-header .entry-grid-title a,
+#news .entry-grid-elements {
+    color: #222;
+    margin-top: 50px;
+}
+
+#content-inside {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.entry-header h2 a,
+article .entry-title,
+article .entry-meta,
+article .entry-date,
+article .author a {
+    color: #fff;
+}
+
+#comments .comment .comment-wrapper {
+    background-color: #960018;
+    border-color: #ffd700;
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+}
+
+#comments .comment .comment-wrapper:before {
+    border-color: rgba(0, 0, 0, 0) #960018 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+#respond {
+    display: none;
+}
+
+#respond #reply-title {
+    color: #fff;
+}
+
+#respond #submit {
+    color: #222;
+}
+
+#section-news-posts .entry-grid-elements {
+    border-color: #ffd700;
+    border-top-color: rgb(1, 130, 255);
+    border-bottom-color: #f5004c;
+    border-radius: 25px;
+    border-width: 8px;
+}
+
+#news .section-news-content {
+    padding-bottom: 5%;
+}
+
+#news {
+    /*background-image: url("https://images.unsplash.com/photo-1446941303752-a64bb1048d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
+    background-position: center top 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+/*
+#news .container{
+    background-image: linear-gradient(to right,  transparent, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0.5), rgba(150, 0, 24, 0.1), transparent);
+}
+*/
+#news .container {
+    padding-top: 35%;
+    padding-bottom: 25%;
+    margin-bottom: 0px;
+}
+
+#news .section-title-area {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    margin: 0px;
+}
+
+.wp-block-nk-awb>h1:nth-child(2) {
+    color: white;
+}
+
+#news h2.section-title {
+    padding-top: 4%;
+}
+
+
+
+/*--- Menu ---*/
+
+.site-branding {
+    width: 20%;
+}
+
+#masthead {
+    background-color: black !important;
+}
+
+#masthead .nav-menu a {
+    font-size: 95%;
+}
+
+#masthead .sub-menu a {
+    color: rgb(13, 160, 0);
+}
+
+#masthead .sub-menu a {
+    background-color: rgb(0, 0, 0);
+    border-color: #222;
+}
+
+#masthead .sub-menu li:first-child {
+    background-color: rgb(0, 0, 0);
+    border-color: #fff;
+}
+
+.sub-menu {
+    border-color: #222;
+}
+
+#masthead .sub-menu li:hover {
+    color: #fff;
+    background-color: #B5061C;
+}
+
+.nav-menu a {
+    color: #fff;
+}
+
+#masthead .nav-menu a {
+    border-color: #222;
+}
+
+#masthead .nav-menu a:hover {
+    background-color: yellow;
+    color: green;
+}
+
+#nav-toggle {
+    filter: invert(100%);
+}
+
+/* Botões */
+
+.btn-theme-primary {
+    min-width: 15vw;
+    background: #000;
+
+    color: #e3e3e3;
+    border: 3px solid green;
+}
+
+.btn-theme-primary:hover {
+    background: green;
+
+    color: #e3e3e3;
+    border-color: green;
+}
+
+.btn-theme-primary:focus {
+    background: #b5061C;
+
+    color: #e3e3e3;
+    border-color: #b5061C;
+}
+
+.btn-theme-primary-outline {
+    background-color: #094190;
+}
+
+.btn-theme-primary-outline:hover {
+    background-color: green;
+    color: #000;
+    border-color: green;
+}
+
+.btn-theme-primary-outline:focus {
+    color: rgb(255, 242, 18);
+    ;
+}
+
+.btn.btn-secondary-outline {
+    min-width: 15vw;
+    background: #000;
+
+    color: #e3e3e3;
+    border: 3px solid green;
+}
+
+.btn.btn-ranking-outline {
+    min-width: 15vw;
+    background: #000;
+
+    color: #e3e3e3;
+    border: 3px solid green;
+}
+
+a.btn.btn-ranking-outline:hover {
+    background: green;
+
+    color: #e3e3e3;
+}
+
+a.btn.btn-secondary-outline:hover {
+    background: green;
+
+    color: #e3e3e3;
+    border-color: green;
+}
+
+a.btn.btn-secondary-outline:focus {
+    background: #1547A2;
+
+    color: #e3e3e3;
+    border-color: #1547A2;
+}
+
+.features__item:nth-child(n) a.btn.btn-secondary-outline {
+    color: #000;
+    background-color: #FFF;
+    border-color: #222;
+    border-width: 2px;
+}
+
+.features__item:nth-child(n) a.btn.btn-secondary-outline:hover {
+    background-color: #C8C8C8;
+    color: #000;
+    border-color: #000;
+    border-width: 2px;
+}
+
+.features__item:nth-child(n) a.btn.btn-secondary-outline:focus {
+    background-color: #C8C8C8;
+    color: #000;
+    border-color: #000;
+    border-width: 2px;
+}
+
+/* Adicionando imagem de fundo 
+*/
+body {
+    background-image: url(http://www.each.usp.br/petsi/bxcomp2020/wp-content/uploads/2021/01/fundo-final-final.png.png);
+    background-attachment: fixed !important;
+
+}
+
+#hero {
+    margin-bottom: 150px;
+}
+
+
+#recursos,
+#features,
+#patrocinadores,
+#contador,
+#counter,
+#contact {
+    margin-bottom: 150px;
+    background-color: black;
+}
+
+
+#features .container,
+#news .container,
+#gallery .container {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: auto;
+}
+
+
+#features .container {
+    flex: 1;
+    order: 1;
+}
+
+
+#features .container .section-title-area {
+    margin-bottom: 0px;
+}
+
+#news .container .section-title-area,
+#gallery .container .section-title-area {
+    padding-top: 0%;
+    padding-bottom: 5%;
+    margin-bottom: 0px;
+}
+
+
+.entry-header .entry-title {
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.6px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    line-height: 1.3;
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+
+.entry-content {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    max-width: 790px;
+    word-wrap: break-word;
+}
+
+
+/* .site-content {
+    background-image: url(../../wp-content/uploads/fundos/fundo1.png);
+    background-attachment: fixed;
+}*/
+.nav-menu li.current-menu-item>a {
+    color: green;
+}
+
+#hero .swiper-slide {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#contact a {
+    color: green;
+}
+
+#contact .fa {
+    color: green !important;
+}
+
+#contact .contact-detail-value:hover {
+    color: green;
+}
+
+#hero .overlay {}
