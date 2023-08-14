@@ -2156,66 +2156,66 @@ input[type="radio"]+label:before {
 	position: relative;
 }
 
-	.icon:before {
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		display: inline-block;
-		font-style: normal;
-		font-variant: normal;
-		text-rendering: auto;
-		line-height: 1;
-		text-transform: none !important;
-		font-family: 'Font Awesome 5 Free';
-		font-weight: 400;
-	}
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	text-transform: none !important;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+}
 
-	.icon > .label {
-		display: none;
-	}
+.icon>.label {
+	display: none;
+}
 
-	.icon:before {
-		line-height: inherit;
-	}
+.icon:before {
+	line-height: inherit;
+}
 
-	.icon.solid:before {
-		font-weight: 900;
-	}
+.icon.solid:before {
+	font-weight: 900;
+}
 
-	.icon.brands:before {
-		font-family: 'Font Awesome 5 Brands';
-	}
+.icon.brands:before {
+	font-family: 'Font Awesome 5 Brands';
+}
+
+.icon.major {
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	border-radius: 3px;
+	border: solid 2px #fff;
+	display: inline-block;
+	font-size: 1.35em;
+	height: calc(3em + 2px);
+	line-height: 3em;
+	text-align: center;
+	width: calc(3em + 2px);
+}
+
+.icon.major:before {
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 736px) {
 
 	.icon.major {
-		-moz-transform: rotate(-45deg);
-		-webkit-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-		border-radius: 3px;
-		border: solid 2px #fff;
-		display: inline-block;
-		font-size: 1.35em;
-		height: calc(3em + 2px);
-		line-height: 3em;
-		text-align: center;
-		width: calc(3em + 2px);
+		font-size: 1em;
 	}
 
-		.icon.major:before {
-			-moz-transform: rotate(45deg);
-			-webkit-transform: rotate(45deg);
-			-ms-transform: rotate(45deg);
-			transform: rotate(45deg);
-			display: inline-block;
-			font-size: 1.5em;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.icon.major {
-				font-size: 1em;
-			}
-
-		}
+}
 
 /* Image */
 
@@ -2690,8 +2690,8 @@ button:disabled,
 	position: relative;
 	width: 50%;
 	list-style: none;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -2792,8 +2792,8 @@ button:disabled,
 }
 
 .pats-image {
-    max-width: 400px;
-    height: auto;
+	max-width: 400px;
+	height: auto;
 }
 
 /* Spotlight */
@@ -3297,9 +3297,9 @@ button:disabled,
 .wrapper.style4 {
 	background-color: transparent;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .wrapper.style5 {
@@ -3730,6 +3730,8 @@ body.is-menu-visible #menu {
 	opacity: 0;
 }
 
+
+
 /* Banner */
 
 #banner {
@@ -4140,18 +4142,18 @@ body.is-mobile #main>header {
 }
 
 .icon-wrapper {
-    text-align: center;
-    display: inline-block;
+	text-align: center;
+	display: inline-block;
 }
 
 .network-name {
-    display: block;
-    margin-bottom: 1px;
-    font-size: 0.8em;
+	display: block;
+	margin-bottom: 1px;
+	font-size: 0.8em;
 }
 
 .icon-wrapper a {
-    display: block;
+	display: block;
 }
 
 
