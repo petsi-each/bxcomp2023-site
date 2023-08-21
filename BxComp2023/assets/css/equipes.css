@@ -1,0 +1,57 @@
+/* Import the "Press Start 2P" font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.scoreboard {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    margin: 2rem 1rem; 
+    padding: 1rem;
+    background-color: #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.scoreboard h3{
+    color:blue;
+    text-shadow: 0 0 10px BLUE, 0 0 10px white, 0 0 15px white;
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+.table-header, .team {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Ajustado para manter a proporção das colunas */
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 0.5rem; /* Margem inferior ajustada */
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.rank, .team-name, .team-score {
+    text-align: center;
+}
+
+.rank, .team-score{
+    color: green;
+}
+
+.team-name {
+    text-align: left;
+    color:red;
+}
+
+.team-score {
+    font-size: 18px; /* Tamanho da fonte ajustado para dispositivos móveis */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .table-header, .team {
+        grid-template-columns: 1fr 1fr; /* Duas colunas para dispositivos móveis */
+        text-align: center;
+    }
+
+    .team-name {
+        text-align: center;
+    }
+}
