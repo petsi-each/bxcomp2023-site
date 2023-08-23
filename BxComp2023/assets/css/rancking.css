@@ -6,7 +6,7 @@
     text-align: center;
     margin: 2rem 1rem; 
     padding: 1rem;
-    background-color: #333;
+    background-color: rgba(57, 57, 57, 0.904);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
