@@ -3748,7 +3748,7 @@ body.is-menu-visible #menu {
 	-ms-justify-content: center;
 	justify-content: center;
 	cursor: default;
-	height: 120vh;
+	height: 75em;
 	min-height: 35em;
 	overflow: hidden;
 	position: relative;
@@ -4233,7 +4233,7 @@ body.is-mobile.landing #footer {
 
 .character {
     background-color: rgb(33,178,166);
-    padding: 20px;
+    padding: 1.5em;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -4254,13 +4254,15 @@ body.is-mobile.landing #footer {
     font-size: small;
     margin: 0;
     color: white;
+    word-break: break-all;
 }
 
 .character-image {
     width: 100%;
     height: 100%;
-    max-height: 40vh;
+    max-height: 40em;
     width: 25em;
+	margin-top: 15em;
     margin-left: auto;
     display: block;
     align-items: center;
@@ -4276,15 +4278,55 @@ body.is-mobile.landing #footer {
     max-height: 100%;
 }
 
+
+
 .character-name {
     margin-top: 3em;
     width: 100%; 
-    height: 12%;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     text-align: center;
-    padding: 10px;
     font-size: small;
     font-family: "Press Start 2P", cursive;
-    border-radius: 5px;
+    border-radius: 7px;
+}
+
+/* Consulta de mídia para resolução de celular */
+@media (max-width: 480px) {
+	.content-wrapper {
+		margin-left: 0%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.character-image {
+		margin-top: 0em;
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+	
+	.character-image img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	
+	
+	
+	.character-name {
+		margin-top: 0em;
+		width: 100%; 
+		height: auto;
+		white-space: normal;
+		word-wrap: break-word;
+		background-color: rgba(0, 0, 0, 0.7);
+		color: white;
+		text-align: center;
+		font-size: small;
+		font-family: "Press Start 2P", cursive;
+		border-radius: 5px;
+	}
+	
 }

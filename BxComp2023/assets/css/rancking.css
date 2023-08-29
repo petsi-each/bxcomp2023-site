@@ -3752,7 +3752,7 @@ body.is-menu-visible #menu {
 	-ms-justify-content: center;
 	justify-content: center;
 	cursor: default;
-	height: 178vh;
+	height: 90em;
 	min-height: 35em;
 	overflow: hidden;
 	position: relative;
