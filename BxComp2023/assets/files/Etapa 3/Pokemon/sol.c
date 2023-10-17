@@ -39,12 +39,12 @@ int main() {
 }
 
 void solve(void) {
-  char string[100];
+  char input[255];
   int a, b, c, d, e;
   int sum;
   bool startsWithQUXY;
 
-  scanf("%s", string);
+  scanf("\n%[^\n]", input);
 
   scanf("%d", &a);
   scanf("%d", &b);
@@ -54,13 +54,13 @@ void solve(void) {
 
   sum = a + b + c + d + e;
 
-  startsWithQUXY = string[0] == 'Q' || string[0] == 'U' || string[0] == 'X' ||
-                   string[0] == 'Y' || string[0] == 'q' || string[0] == 'u' ||
-                   string[0] == 'x' || string[0] == 'y';
+  startsWithQUXY = input[0] == 'Q' || input[0] == 'U' || input[0] == 'X' ||
+                   input[0] == 'Y' || input[0] == 'q' || input[0] == 'u' ||
+                   input[0] == 'x' || input[0] == 'y';
 
   if (sum > 744 || sum < 195 || startsWithQUXY) {
-    printf("%s ta esquisito hein, deve ser um Digimon!\n", string);
+    printf("%s ta esquisito hein, deve ser um Digimon!\n", input);
   } else {
-    printf("%s parece legitimo, da ate pra acreditar.\n", string);
+    printf("%s parece legitimo, da ate pra acreditar.\n", input);
   }
 }
